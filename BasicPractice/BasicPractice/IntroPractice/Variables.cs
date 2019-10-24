@@ -9,9 +9,11 @@ namespace BasicPractice.IntroPractice
         
         public Variables()
         {
+            Console.WriteLine("<---------- Variables ---------->");
             Print();
         }
-        public static void Print()
+
+        private static void Print()
         {
             Console.WriteLine("My full name is : " +fullName);
             Console.WriteLine("    Reg. No. : " +regNum);
