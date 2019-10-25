@@ -8,7 +8,7 @@ namespace BasicPractice.IntroPractice
         {
             Console.WriteLine("<---------- Converter ---------->");
             TypeConvert();
-            InverseConverter();
+            UsingConverter();
         }
 
         private static void TypeConvert()
@@ -26,9 +26,20 @@ namespace BasicPractice.IntroPractice
             Console.WriteLine("\t" +dnum.GetType());
         }
 
-        private static void InverseConverter()
+        private static void UsingConverter()
         {
+            int demo = 12;
+            double double_demo = Convert.ToDouble(demo);
+            char char_demo = Convert.ToChar(demo);
+            string string_demo = Convert.ToString(demo);
+            bool bool_demo = Convert.ToBoolean(demo);
             
+            Console.WriteLine("Inside UsingConverter : ");
+            Console.WriteLine("\t" +demo.GetType());
+            Console.WriteLine("\t" +double_demo.GetType());
+            Console.WriteLine("\t" +char_demo.GetType());
+            Console.WriteLine("\t" +string_demo.GetType());
+            Console.WriteLine("\t" +bool_demo.GetType());
         }
     }
 }
