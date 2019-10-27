@@ -16,6 +16,8 @@ namespace BasicPractice
             new UserInput();
             new Math();
             new StringClass();
+            new ArrayClass();
+            new ArrayLinq();
         }
     }
 }
