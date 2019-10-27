@@ -38,7 +38,7 @@ namespace BasicPractice.IntroPractice
             }
             catch (Exception e)
             {
-                Console.WriteLine("The Error is :  Index was outside the bounds of the array.");
+                Console.WriteLine("The Error is : " +e);
             }
             Console.WriteLine("End of Array Linq ...!");
             

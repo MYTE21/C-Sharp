@@ -18,6 +18,7 @@ namespace BasicPractice
             new StringClass();
             new ArrayClass();
             new ArrayLinq();
+            new MethodClass();
         }
     }
 }
