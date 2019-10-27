@@ -14,5 +14,10 @@ namespace BasicPractice.IntroPractice
         {
             Console.WriteLine("\tHi " +name+ ", The Time is : " +DateTime.Now.ToString("HH:mm:ss, dddd, dd MMMM yyyy"));
         }
+
+        public int num(int num)
+        {
+            return num + num;
+        }
     }
 }

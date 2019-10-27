@@ -18,7 +18,8 @@ namespace BasicPractice
             new StringClass();
             new ArrayClass();
             new ArrayLinq();
-            new MethodClass();
+            MethodClass m = new MethodClass();
+            Console.WriteLine("Calling Class's Method : " +m.num(5));
         }
     }
 }
