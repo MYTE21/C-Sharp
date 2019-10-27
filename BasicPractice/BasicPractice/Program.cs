@@ -1,5 +1,6 @@
 ﻿using System;
 using BasicPractice.IntroPractice;
+using Math = BasicPractice.IntroPractice.Math;
 
 namespace BasicPractice
 {
@@ -13,6 +14,8 @@ namespace BasicPractice
             new Variables();
             new Converter();
             new UserInput();
+            new Math();
+            new StringClass();
         }
     }
 }

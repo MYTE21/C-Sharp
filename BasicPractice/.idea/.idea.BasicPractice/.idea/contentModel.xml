@@ -9,6 +9,8 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="IntroPractice" t="Include">
           <e p="Converter.cs" t="Include" />
+          <e p="Math.cs" t="Include" />
+          <e p="StringClass.cs" t="Include" />
           <e p="UserInput.cs" t="Include" />
           <e p="Variables.cs" t="Include" />
         </e>

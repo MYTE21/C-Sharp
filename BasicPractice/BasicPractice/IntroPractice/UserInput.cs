@@ -6,6 +6,7 @@ namespace BasicPractice.IntroPractice
     {
         public UserInput()
         {
+            Console.WriteLine("<---------- UserInput ---------->");
             MainInput();
         }
 
