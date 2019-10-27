@@ -31,6 +31,17 @@ namespace BasicPractice.IntroPractice
             Console.WriteLine("\nMax : " +numArray.Max());
             Console.WriteLine("Min : " +numArray.Min());
             Console.WriteLine("Sum : " +numArray.Sum());
+
+            try
+            {
+                Console.WriteLine("100 index of numArray : " +numArray[100]);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("The Error is :  Index was outside the bounds of the array.");
+            }
+            Console.WriteLine("End of Array Linq ...!");
+            
         }
     }
 }
