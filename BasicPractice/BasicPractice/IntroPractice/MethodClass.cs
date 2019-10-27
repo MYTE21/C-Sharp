@@ -7,12 +7,12 @@ namespace BasicPractice.IntroPractice
         public MethodClass()
         {
             Console.WriteLine("<---------- Method Class ---------->");
-            MyMethod();
+            MyMethod("Evon");
         }
 
-        private static void MyMethod()
+        private static void MyMethod(string name)
         {
-            Console.WriteLine("\t The Time is : " +DateTime.Now.ToString("HH:mm:ss, dddd, dd MMMM yyyy"));
+            Console.WriteLine("\tHi " +name+ ", The Time is : " +DateTime.Now.ToString("HH:mm:ss, dddd, dd MMMM yyyy"));
         }
     }
 }
