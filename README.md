@@ -1,2 +1,1 @@
-# practiceCS
- C# Basic Practice
+# C#
